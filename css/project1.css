@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+header{
+    background-color:#daac00;
+    padding: 30px 0px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 25px;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+
+}
+.searchbox input{
+    background-color: white;
+    height: 50px;
+    padding-left: 25px;
+    font-size: 16px;
+    color: black;
+    border: none;
+}
+.searchbox button{
+    background-color:blue;
+    border: none;
+    padding: 8px 0px 16px;
+    width: 60px;
+    text-align: center;
+}
+.banner{
+    background-color: #fcc302;
+    padding: 60px 0px;
+}
+.banner .content p{
+    max-width: 600px;
+}
+.banner h2{
+    font-size: 45px;
+    color: white;
+}
+.banner p{
+    font-size: 20px;
+    color: white;
+}
+.banner button{
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color:blue;
+    padding: 10px 25px;
+    border-radius:8px ;
+    margin-top: 30px;
+}
+.banner button.readmore.border{
+    background: transparent;
+    border: 2px solid white;
+}
+.loverofanimal{
+    padding: 70px 0px;
+}
+.loverofanimal h2{
+    font-size: 45px;
+    color: black;
+}
+.loverofanimal p{
+    font-size: 20px;
+    max-width: 500px;
+    color:black;
+}
+.loverofanimal button{
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #fcc302;
+    padding: 10px 25px;
+    border-radius:8px ;
+    margin-top: 30px;
+}
+.title{
+    background-color: #fcc302;
+    padding: 60px 0px;
+}
+.title .content.service{
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+}
+.title h2{
+    font-size: 45px;
+    color: white;
+}
+.title p{
+    font-size: 20px;
+    color: white;
+}
+.banner .btn{
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color:blue;
+    padding: 10px 25px;
+    border-radius:25px ;
+    margin-top: 30px;
+}
+.content.btn{
+    text-align: right;
+}
+.bannerimage{
+    text-align: center;
+}
+.title.bg-white{
+    background-color: white;
+}
+.title.bg-white .content.service h2{
+    color: black;
+}
+.title.bg-white p{
+    color: black;
+}
+.titleimage .btn{
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color:blue;
+    padding: 10px 25px;
+    border-radius:25px;
+    text-align: center;
+}
+.title.bg-white .teamimage h6{
+    color: blue;
+    text-align: left;
+}
+.title.bg-white .teamimage h4{
+    color: blue;
+    text-align: left; 
+}
+.title .container .content.service p h1{
+    color: white;
+}
+.title .container .content.service h2{
+    color: white;
+}
+.title.bg-white .container .teamimage h3{
+    text-align: left;
+}
+.title.bg-white .container .teamimage h5{
+    text-align: left;
+}
+footer{
+    background-color: black;
+    display: flex;
+    margin: auto;
+}
+footer .one{
+    padding-left:125px;
+}
+footer .one h2{
+    font-size: 18px;
+    padding-left: 40px;
+}
+footer .one ul{
+    color: white;
+    list-style: none;
+}
+footer .two{
+    padding-left: 200px;
+}
+footer .two h2{
+    font-size: 18px;
+    padding-left: 40px;
+}
+footer .two ul{
+    color: white;
+    list-style: none;
+    float: left;
+    margin: auto;
+}
+footer .three{
+    padding-left: 200px;
+    float: right;
+}
+footer .three h2{
+    font-size: 18px;
+    padding-left: 40px;
+}
+footer .three h2 p{
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+
+
+
